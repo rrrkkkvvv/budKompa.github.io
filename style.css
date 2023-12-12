@@ -31,7 +31,14 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
-  /* background-color: #fff; */
+}
+
+
+@media(max-width: 1300px){
+  .container{
+    width: 100%;
+    margin: 0;
+  }
 }
 
 .hi {
@@ -332,8 +339,15 @@ body {
 }
 
 .item__image.positional img {
-  width: 800px;
-  height: 440px;
+  width: 600px;
+  height:300px;
+}
+
+@media(max-width: 1200px){
+  .item__image.positional img {
+    width: 600px;
+  height:300px;
+  }
 }
 
 .item__image.named img {
