@@ -29,16 +29,18 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 70vw;
   margin: 0 auto;
 }
 
 
 @media(max-width: 1300px){
   .container{
-    width: 100%;
+    width: 90vw;
     margin: 0;
   }
+
+
 }
 
 .hi {
@@ -48,7 +50,7 @@ body {
 
 .hi__row {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 50px 0;
 }
 
@@ -63,6 +65,7 @@ body {
   font-size: 60px;
   color: #fff;
   margin-bottom: 35px;
+ 
 }
 
 .hi__list li {
@@ -170,29 +173,8 @@ body {
   background-color: #adadad6d;
 }
 
-@media (max-width: 499px) {
-  .header__link {
-      font-size: 0.8rem;
 
-  }
 
-  .header__link:not(:last-child) {
-      margin-right: 0;
-  }
-}
-
-@media (max-width: 399px) {
-  .header__link {
-      font-size: 0.7rem;
-      font-weight: 800;
-      padding: 5px;
-
-  }
-
-  .header__link:not(:last-child) {
-      margin-right: 0;
-  }
-}
 .navigation{
   display:  flex;
 }
@@ -250,35 +232,8 @@ body {
   text-shadow: 3px -4px 5px #333;
 }
 
-._gold {
-  color: #FFD700;
-  text-shadow: none;
-  text-decoration: underline;
-}
 
-.content__ul {}
 
-.content__li {
-  user-select: none;
-  cursor: pointer;
-}
-
-.content__link::before {
-  content: '✔';
-  color: white;
-  margin: 10px;
-  font-weight: 700;
-}
-
-.content__li:hover {
-  color: #ff8000;
-  text-shadow: none;
-}
-
-.content__li:hover .content__link::before {
-  color: #ff8000;
-  text-shadow: none;
-}
 
 .what {
   color: #333;
@@ -291,7 +246,6 @@ body {
 
 
 .what__image img {
-  margin-right: 30px;
   max-width: 500px;
 }
 
@@ -323,9 +277,9 @@ body {
 }
 
 .columns__item {
-  border: 1px solid #333;
+  border: 1px solid #adadad;
   border-radius: 10px;
-  padding: 10px;
+  padding: 5px;
 }
 
 .item__row {
@@ -469,7 +423,7 @@ span.notion{
   position: absolute;
   width: 300px; 
   z-index: 1;
-  left: 0;
+  left: -10rem;
   top: 0;
   background-color: #fff; 
   color: #333; 
@@ -483,7 +437,8 @@ span.notion{
 [data-notion]:hover::after {
   opacity: 1; 
   visibility: visible;
-  left: 5rem; 
+  top: 1rem; 
+  left: -5rem;
  }
 
 .zadania{
