@@ -207,6 +207,7 @@ body {
 
 #content1 {
   display: flex;
+
 }
 
 #content2 {
@@ -214,7 +215,8 @@ body {
 
 }
 
-#content3 {
+#content6 {
+
 }
 
 
@@ -398,12 +400,12 @@ body {
 
 .footer__row {
   display: flex;
-  height: 65px;
+  height: 100px;
   justify-content: center;
 }
 
 .footer__text {
-  margin-top: 25px;
+  margin-top: 45px;
 }
 
 
@@ -423,8 +425,8 @@ span.notion{
   position: absolute;
   width: 300px; 
   z-index: 1;
-  left: -10rem;
-  top: 0;
+  left: 0;
+  top: -100px;
   background-color: #fff; 
   color: #333; 
   padding: 0.5em; 
@@ -444,4 +446,5 @@ span.notion{
 .zadania{
   list-style: circle;
   padding: 0 20px;
+ 
 }
